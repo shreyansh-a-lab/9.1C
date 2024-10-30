@@ -1,0 +1,108 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background for the entire body */
+    min-height: 100vh;
+}
+
+.signup {
+    flex-direction: column;
+    border: 2px solid #d1d1d1; /* Softer border color */
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); /* Stronger box shadow */
+    font-size: 18px;
+    display: flex;
+    background-color: #ffffff;
+    width: 35%; /* Slightly reduced width for more compact design */
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a5276; /* A deeper blue for the heading */
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signup label {
+    margin-bottom: 10px;
+    color: #2d3436; /* Darker text color for labels */
+    font-weight: bold;
+}
+
+.signup input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b2bec3; /* Softer border for inputs */
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f0f4f7; /* Light grey background for inputs */
+}
+
+.signup button {
+    background-color: #1e8449; /* Updated button color to green */
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup button:disabled {
+    background-color: #95a5a6;
+}
+
+.alert {
+    background-color: #c0392b; /* Bright red for alerts */
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.acc {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.acc a {
+    color: #2980b9; /* Vivid blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.acc a:hover {
+    text-decoration: underline;
+}
+
+.input {
+    margin-top: 10px;
+    display: flex;
+    width: 60%;
+    padding-top: 90px;
+}
+
+.button:hover {
+    background-color: #16a085; /* Darker shade for button on hover */
+    opacity: 0.85;
+    color: #fff;
+}

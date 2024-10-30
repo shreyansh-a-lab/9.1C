@@ -1,0 +1,102 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9; /* Light background for the whole body */
+    min-height: 100vh; /* Ensure it takes full height */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #cccccc; /* Softer border color */
+    width: 30%;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(126, 50, 50, 0.15); /* Slightly larger box shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #3876b4; /* Darker shade for the heading */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login label {
+    margin-bottom: 10px;
+    color: #3573b0; /* Updated label color */
+    font-weight: bold;
+}
+
+.login input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #30688e; /* Softer input borders */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #379fb9; /* Light grey input background */
+}
+
+.login button {
+    background-color: #1abc9c; /* Updated button color */
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.login button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.alert {
+    background-color: #e74c3c; /* Strong red for alerts */
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.account {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.account a {
+    color: #2980b9; /* Bright blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: #16a085; /* Darker shade for button hover */
+    opacity: 0.85;
+}
